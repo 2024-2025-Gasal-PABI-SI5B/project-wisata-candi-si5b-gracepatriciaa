@@ -30,9 +30,9 @@ class MainApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ), // themeData
-      // home: DetailScreen(candi: candiList[0]),
+      home: DetailScreen(candi: candiList[0]),
       // home: ProfilScreen(),
-      home: SignInScreen(),
+      //home: SignInScreen(),
     );
   }
 }
